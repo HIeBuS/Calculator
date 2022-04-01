@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css"/>
+<script src="script.js"></script>
+</head>
+
+<body>
+    <center>
+      <div id="container">
+        
+        <div id="screen"></div>
+
+        <!--1st line-->
+        <div id="tileDel" class="tile" style="float: left;" onclick="del();">C</div>
+        <div id="tilePerc" class="tile" style="float: left;" onclick="perc();">%</div>
+
+        <!--2st line-->
+        <div class="tile" style="float: left;" onclick="fordisplay('7');">7</div>
+        <div class="tile" style="float: left;" onclick="fordisplay('8');">8</div>
+        <div class="tile" style="float: left" onclick="fordisplay('9');">9</div>
+        <div class="tile" style="float: left;" onclick="fordisplay('/');">÷</div>
+        
+        <!--3st line-->
+        <div class="tile" style="float: left;" onclick="fordisplay('4');">4</div>
+        <div class="tile" style="float: left;" onclick="fordisplay('5');">5</div>
+        <div class="tile" style="float: left;" onclick="fordisplay('6');">6</div>
+        <div class="tile" style="float: left;" onclick="fordisplay('*');">x</div>
+
+        <!--4st line-->
+        <div class="tile" style="float: left;" onclick="fordisplay('1');">1</div>
+        <div class="tile" style="float: left;" onclick="fordisplay('2');">2</div>
+        <div class="tile" style="float: left;" onclick="fordisplay('3');">3</div>
+        <div class="tile" style="float: left;" onclick="fordisplay('-');">-</div>
+        
+        <!--5st line-->
+        <div class="tile" style="float: left;" onclick="fordisplay('0');">0</div>
+        <div class="tile" style="float: left;" onclick="fordisplay('.');">.</div>
+        <div class="tile" style="float: left;" onclick="fordisplay('+');">+</div>
+        <div class="tile" style="float: left;" onclick="showResult();">=</div>
+
+      </div>
+    </center>
+</body>
+</html>
+
+
